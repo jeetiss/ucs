@@ -17,10 +17,10 @@ function format<T>([localValue, globalValue]: [T, T]) {
 }
 
 function useControlledState<T>(
-  value: T,
-  onChange: (value: T) => void,
-  defaultValue: T
-): [T, Dispatch<SetStateAction<T>>] {
+  value?: T,
+  onChange?: (value?: T) => void,
+  defaultValue?: T
+): [T | undefined, Dispatch<SetStateAction<T>>] {
   const [localValue, setLocalValue] = useState(() =>
     isDefined(value) ? value : defaultValue
   );

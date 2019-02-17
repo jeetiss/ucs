@@ -15,18 +15,28 @@
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "jest"
   },
   "dependencies": {},
   "peerDependencies": {
     "react": "^16.8.0"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.1.18",
+    "@types/enzyme-adapter-react-16": "^1.0.4",
+    "@types/jest": "^24.0.5",
     "@types/react": "^16.8.3",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "jest": "^23.6.0",
     "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-test-renderer": "^16.8.2",
     "rollup": "^1.1.2",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-typescript2": "^0.19.2",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.3.3"
   },
   "files": [
