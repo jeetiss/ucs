@@ -2,7 +2,7 @@
 
 > another controlled state hook
 
-[![NPM](https://img.shields.io/npm/v/ucs.svg)](https://www.npmjs.com/package/ucs)
+[![NPM](https://img.shields.io/npm/v/ucs.svg)](https://www.npmjs.com/package/ucs) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/ucs.svg?style=flat)](https://bundlephobia.com/result?p=ucs) [![travis](https://img.shields.io/travis/com/jeetiss/ucs.svg?style=flat)](https://travis-ci.com/jeetiss/ucs/)
 
 ## Install
 
@@ -24,6 +24,10 @@ const Toggler = ({ value, onChange, defaultValue }) => {
   );
 };
 ```
+
+## demo
+
+see demo and example of usage on [gh-pages](https://jeetiss.github.io/ucs/)
 
 ## License
 

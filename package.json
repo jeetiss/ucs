@@ -16,7 +16,9 @@
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepare": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "cd example && npm install && npm run build",
+    "deploy": "gh-pages -d example/public"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -29,6 +31,7 @@
     "@types/react": "^16.8.3",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.9.1",
+    "gh-pages": "^2.0.1",
     "jest": "^23.6.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",

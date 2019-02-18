@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/ucs",
   siteMetadata: {
     title: "useControlledState",
     language: "en"
